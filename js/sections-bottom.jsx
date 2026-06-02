@@ -46,7 +46,7 @@ function FinalCTA({ t }) {
         <span className="eyebrow center" style={{ justifyContent: "center", color: "color-mix(in oklab, var(--primary) 70%, #fff)" }}>Your flatter belly starts small</span>
         <h2 style={{ marginTop: 20 }}>It's not too late. <em>It's exactly the right time.</em></h2>
         <p>Start with a few small tasks tomorrow morning. Let the plan meet the body you have now — and adapt as it changes.</p>
-        <a href="#" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
+        <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
         <div className="final-guarantee">{Icon.shield({ width: 18, height: 18 })} 7 days free · then $19/mo · 30-day money-back guarantee</div>
       </div>
     </section>
@@ -72,17 +72,17 @@ function Footer() {
             </div>
             <div className="footer-col">
               <h5>Company</h5>
-              <a href="#">About</a>
-              <a href="#">Our dietitians</a>
-              <a href="#">Research</a>
-              <a href="#">Contact</a>
+              <a href="#top">About</a>
+              <a href="#top">Our dietitians</a>
+              <a href="#top">Research</a>
+              <a href="#top">Contact</a>
             </div>
             <div className="footer-col">
               <h5>Legal</h5>
-              <a href="#">Privacy</a>
-              <a href="#">Terms</a>
-              <a href="#">Refund policy</a>
-              <a href="#">Medical disclaimer</a>
+              <a href="#top">Privacy</a>
+              <a href="#top">Terms</a>
+              <a href="#top">Refund policy</a>
+              <a href="#top">Medical disclaimer</a>
             </div>
           </div>
         </div>

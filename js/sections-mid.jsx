@@ -109,7 +109,7 @@ function Offer({ t }) {
           <span className="price-flag">Founding member offer</span>
           <div className="price-trial">7 days free</div>
           <p className="price-then">then <b>$19/month</b> · or <b>$129/year</b> · cancel anytime, no questions</p>
-          <a href="#" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
+          <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
           <ul className="price-mini">
             <li>{Icon.check({ width: 16, height: 16 })} No card charged during your trial</li>
             <li>{Icon.check({ width: 16, height: 16 })} Full access to your daily plan from day one</li>

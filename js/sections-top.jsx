@@ -27,8 +27,8 @@ function Header({ t }) {
           <a href="#faq">FAQ</a>
         </nav>
         <div className="header-cta">
-          <a href="#offer" className="btn btn-ghost btn-sm">Sign in</a>
-          <a href="#offer" className="btn btn-primary btn-sm">{t.cta} <Icon.arrow /></a>
+          <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm">Sign in</a>
+          <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">{t.cta} <Icon.arrow /></a>
         </div>
         <button
           className={"hamburger" + (menuOpen ? " open" : "")}
@@ -49,8 +49,8 @@ function Header({ t }) {
             <a href="#faq" onClick={closeMenu}>FAQ</a>
           </nav>
           <div className="mobile-cta">
-            <a href="#offer" className="btn btn-ghost btn-sm" onClick={closeMenu}>Sign in</a>
-            <a href="#offer" className="btn btn-primary" onClick={closeMenu}>{t.cta} <Icon.arrow /></a>
+            <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" onClick={closeMenu}>Sign in</a>
+            <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary" onClick={closeMenu}>{t.cta} <Icon.arrow /></a>
           </div>
         </div>
       )}
@@ -76,7 +76,7 @@ function Hero({ t }) {
   );
   const actions = (
     <div className="hero-actions">
-      <a href="#offer" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
+      <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">{t.cta} <Icon.arrow /></a>
       <a href="#how" className="btn btn-ghost btn-lg">See how it works</a>
     </div>
   );
