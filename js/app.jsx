@@ -2,7 +2,7 @@
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "theme": "blossom",
-  "cta": "Start free for 7 days",
+  "cta": "Accept the Challenge",
   "heroLayout": "photo"
 }/*EDITMODE-END*/;
 

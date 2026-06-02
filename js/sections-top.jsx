@@ -27,7 +27,6 @@ function Header({ t }) {
           <a href="#faq">FAQ</a>
         </nav>
         <div className="header-cta">
-          <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm">Sign in</a>
           <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">{t.cta} <Icon.arrow /></a>
         </div>
         <button
@@ -49,7 +48,6 @@ function Header({ t }) {
             <a href="#faq" onClick={closeMenu}>FAQ</a>
           </nav>
           <div className="mobile-cta">
-            <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-ghost btn-sm" onClick={closeMenu}>Sign in</a>
             <a href="https://tally.so/r/xXvzV9" target="_blank" rel="noopener noreferrer" className="btn btn-primary" onClick={closeMenu}>{t.cta} <Icon.arrow /></a>
           </div>
         </div>
