@@ -492,16 +492,21 @@ h2.title em { font-style: italic; color: var(--primary); }
 
 /* ---- Mobile menu drawer ---- */
 .mobile-menu {
-  position: fixed;
-  inset: 0;
-  top: 64px;
-  background: var(--surface);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--bg);
+  background-color: #fff;
   z-index: 999;
   display: flex;
   flex-direction: column;
-  padding: 32px 24px 40px;
-  gap: 32px;
+  padding: 24px 24px 36px;
+  gap: 28px;
   border-top: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  max-height: calc(100vh - 74px);
+  overflow-y: auto;
   animation: slideDown 0.2s ease;
 }
 @keyframes slideDown {
