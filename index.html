@@ -166,7 +166,7 @@ h2.title em { font-style: italic; color: var(--primary); }
   transition: border-color .3s, background .3s;
 }
 .header.scrolled { border-bottom-color: var(--line); }
-.header-in { display: flex; align-items: center; justify-content: space-between; height: 96px; }
+.header-in { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; min-height: 80px; }
 .nav { display: flex; align-items: center; gap: 34px; }
 .nav a { font-size: 15px; font-weight: 500; color: var(--ink-soft); transition: color .2s; }
 .nav a:hover { color: var(--ink); }
@@ -457,7 +457,7 @@ h2.title em { font-style: italic; color: var(--primary); }
 }
 
 /* ---- Image overrides ---- */
-.logo-img { height: 56px; width: auto; display: block; object-fit: contain; }
+.logo-img { width: 110px; height: auto; display: block; object-fit: contain; }
 .hero-photo img { width: 100%; height: 100%; object-fit: cover; border-radius: inherit; display: block; }
 
 /* ---- Hamburger button ---- */
@@ -505,7 +505,7 @@ h2.title em { font-style: italic; color: var(--primary); }
   gap: 28px;
   border-top: 1px solid var(--line);
   box-shadow: 0 12px 32px rgba(0,0,0,0.12);
-  max-height: calc(100vh - 96px);
+  max-height: calc(100vh - 120px);
   overflow-y: auto;
   animation: slideDown 0.2s ease;
 }
@@ -539,19 +539,13 @@ h2.title em { font-style: italic; color: var(--primary); }
 @media (max-width: 940px) {
   .hamburger { display: flex; }
   .header-cta { display: none; }
-  .header-in { height: 88px; }
-  .logo-img { height: 52px; }
-  .mobile-menu { max-height: calc(100vh - 88px); }
+  .logo-img { width: 96px; }
 }
 @media (max-width: 600px) {
-  .header-in { height: 76px; }
-  .logo-img { height: 46px; }
-  .mobile-menu { max-height: calc(100vh - 76px); }
+  .logo-img { width: 80px; }
 }
 @media (max-width: 420px) {
-  .header-in { height: 68px; }
-  .logo-img { height: 40px; }
-  .mobile-menu { max-height: calc(100vh - 68px); }
+  .logo-img { width: 70px; }
   .btn-sm { padding: 8px 14px; font-size: 13px; }
 }
 </style>
