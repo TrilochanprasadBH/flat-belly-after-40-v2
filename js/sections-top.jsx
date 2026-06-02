@@ -127,10 +127,6 @@ function Hero({ t }) {
         <div className="task-title">3 simple tasks today</div>
         <div className="task-sub">A short walk, protein at breakfast, an evening stretch.</div>
       </div>
-      <div className="hero-card adapt">
-        <div className="adapt-label">Your plan adapts</div>
-        <div className="adapt-bars"><span style={{height:"40%"}}></span><span style={{height:"55%"}}></span><span style={{height:"48%"}}></span><span style={{height:"70%"}}></span><span style={{height:"82%"}}></span><span style={{height:"100%"}}></span></div>
-      </div>
     </div>
   );
 
