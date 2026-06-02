@@ -43,7 +43,6 @@ function Logo({ size = 30, light = false }) {
         src="images/flat40logo.png"
         alt="Flat Belly After 40"
         className="logo-img"
-        style={{ height: size + 6 + "px", width: "auto", display: "block" }}
       />
     </span>
   );
